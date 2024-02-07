@@ -1,6 +1,3 @@
-console.log("JavaScript File is Uploaded")
-
-
 const weatherForm  =  document.querySelector('form');
 const search = document.querySelector('input');
 const meassageone = document.querySelector('#message-1');
