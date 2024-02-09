@@ -14,7 +14,8 @@ const forecast = (lat, long, callback)=>{
         }
     
         else{
-            callback(undefined,"It is currently " + body.current.temperature + " degrees out." + " But it feels like " + body.current.feelslike+ ".");
+
+            callback(undefined,"It is currently " + body.current.temperature + " degrees out." + " But it feels like " + body.current.feelslike+ "." +  "The humidity is " + body.current.humidity + '%');
         }
     })
     
